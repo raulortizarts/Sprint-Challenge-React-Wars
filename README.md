@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+A way to offload data. Using a virtual DOM, we only have to tell it what state to render and it will manipulate the actual DOM.
+
 - [ ] What does it mean to _think_ in react?
+
+Think about components.
 
 - [ ] Describe state.
 
+data object of the component
+
 - [ ] Describe props.
 
+info passed to the component
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+a function that expans outside of its scope. you can stop it by using an empty array.
 
 ## Project Set Up
 
