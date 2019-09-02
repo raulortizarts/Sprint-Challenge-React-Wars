@@ -12,6 +12,9 @@ justify content: space-evenly;`;
 export default function CharacterList(props) {
 
     return (
-        <List></List>
+        <List>
+
+            {props.people.name}
+        </List>
     )
 }
